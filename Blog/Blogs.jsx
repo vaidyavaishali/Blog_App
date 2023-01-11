@@ -14,7 +14,7 @@ const BlogPage = () => {
   }
   const PostData = () => {
 
-    axios.post("http://localhost:4000/api/v1/posts",input, config).then((res) => {
+    axios.post("https://blog-app-backend-36zq.onrender.com/api/v1/posts",input, config).then((res) => {
       //  res.json()
       // console.log(token)
       if (res.status === 200) {

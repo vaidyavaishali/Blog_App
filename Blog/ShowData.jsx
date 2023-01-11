@@ -15,7 +15,7 @@ const ShowData = () => {
             }
         }
 
-        axios.get("http://localhost:4000/api/v1/posts", config).then((res) => {
+        axios.get("https://blog-app-backend-36zq.onrender.com/api/v1/posts", config).then((res) => {
             setBlogData(res.data.users)
         }).catch((e) => {
             console.log(e)

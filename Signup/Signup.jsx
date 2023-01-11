@@ -10,7 +10,7 @@ function Signup() {
   const SignupSubmit = (e) => {
 console.log(input)
     if (validateUser(input)) {
-      axios.post("http://localhost:4000/api/v1/register", input).then((res) => {
+      axios.post("https://blog-app-backend-36zq.onrender.com/api/v1/register", input).then((res) => {
         console.log(res.status)
         if (res.status === 200) {
           alert("registered succesfully")

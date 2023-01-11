@@ -8,7 +8,7 @@ function Login() {
   const Navigate = useNavigate()
 
   const LoginSubmit = () => {
-    axios.post("http://localhost:4000/api/v1/login", input).then((res) => {
+    axios.post("https://blog-app-backend-36zq.onrender.com/api/v1/login", input).then((res) => {
       console.log(input)
       if (res.status === 200) {
         alert("Login SuccessFully")
