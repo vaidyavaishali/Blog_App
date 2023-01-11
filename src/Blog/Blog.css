@@ -1,0 +1,74 @@
+.login-container{
+    height: 350px;
+    width: 300px;
+    margin: 50px auto 0;
+    padding: 10px;
+    border: 2px solid skyblue;
+    background: silver;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(13, 2, 54);
+}
+.email-container label{
+    margin-right: 200px;
+}
+#email-input{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+}
+
+.pass-container{
+    margin-right: 200px;   
+}
+#pass-input{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+}
+
+#login-btn{
+    margin: 20px auto 0;
+    height: 20px;
+    width: 80px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+}
+#header{
+    width: 900px;
+    height: 100px;
+    margin: auto;
+    background-color: bisque;
+}
+.link{
+  margin-left: 40px;
+}
+#post{
+    margin-left: 550px;
+}
+.img{
+    margin: 20px 10px 10px 60px;
+    height: 20px;
+    width: 190px;
+     
+}
+#show{
+    width: 600px;
+    height:260px;
+    margin: auto;
+    background-color: aliceblue;
+    /* padding-top: 10px; */
+    /* box-sizing: border-box; */
+}
+.link:hover{
+ cursor: pointer;
+}
+.link:active{
+      color: red;
+}
